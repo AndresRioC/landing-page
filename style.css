@@ -1,0 +1,147 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 60px;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 40px;
+    gap: 100px;
+}
+
+#secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+#main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#one {
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+button {
+    padding: 8px 16px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882f6;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.stages {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    padding: 40px;
+}
+
+.text {
+    max-width: 200px;
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+}
+
+.tulios > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882f6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
+}
+
+.author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-left: auto;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px    ;
+    background-color: #3882f6;
+    gap: 100px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.sign-up {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.newsletter > button {
+    border-color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
